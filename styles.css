@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+* {
+    font-family: 'Archivo', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.right-page {
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: -482px;
+    background-color: #fcf8f0;
+    width: 545px;
+    height: 100vh;
+}
+.text-right {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 97px;
+    padding-bottom: 7px;
+}
+#tr-p1 {
+    margin-top: 175px;
+}
+.image {
+    margin-left: 97px;
+    margin-top: 30px;
+}
+.name-person, .person-ocupation {
+    position: absolute;
+    margin-left: 148px;
+    margin-top: -40px;
+}
+.name-person {
+    font-weight: bold;
+}
+.person-ocupation {
+    color: #4F4F4F;
+}
+header {
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+h1, label, input, .not-user {
+    margin-left: 100px;
+}
+input {
+    width: 450px;
+    height: 37px;
+    border: none;
+    background-color: #f4f4f3;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: -10px;
+}
+.submit {
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+label {
+    color: #4F4F4F;
+    font-size: 18px;
+    display: flex;
+    margin-top: 12px;
+}
+.back-cg {
+    margin-left: 270px;
+    color: #4F4F4F;
+    font-size: 16px;
+}
+.create-ac {
+    margin-left: 10px;
+}
+.not-user {
+    color: #4F4F4F;
+}
+h1 {
+    font-weight: bold;
+}
+.pw, .un {
+    padding-left: 20px;
+}
